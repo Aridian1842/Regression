@@ -1,0 +1,56 @@
+If the features of Model 1 are a strict subset of those in Model 2, the TRAINING error of the two models can never be the same.
+False
+
+If the features of Model 1 are a strict subset of those in Model 2, which model will USUALLY have lowest TRAINING error?
+Model2
+
+If the features of Model 1 are a strict subset of those in Model 2. which model will USUALLY have lowest TEST error?
+
+
+If the features of Model 1 are a strict subset of those in Model 2, which model will USUALLY have lower BIAS?
+Model2
+
+
+Which of the following plots of model complexity vs. RSS is most likely from TRAINING data (for a fixed data set)?
+c
+
+Which of the following plots of model complexity vs. RSS is most likely from TEST data (for a fixed data set)?
+a
+
+It is always optimal to add more features to a regression model.
+False
+
+A simple model with few parameters is most likely to suffer from:
+High Bias
+
+A complex model with many parameters is most likely to suffer from:
+High Variance
+
+A model with many parameters that fits training data very well but does poorly on test data is considered to be
+overfitted
+
+A common process for selecting a parameter like the optimal polynomial degree is:
+Minimizing validation error
+
+Selecting model complexity on test data (choose all that apply):
+Should never by done
+Provides an overly optimistic assessment of performance of the resulting model
+
+Which of the following statements is true (select all that apply): For a fixed model complexity, in the limit of an infinite amount of training data,
+x
+
+
+Is the sign (positive or negative) for power_15 the same in all four models?
+No
+
+The plotted fitted lines all look the same in all four plots
+False
+
+Which degree (1, 2, …, 15) had the lowest RSS on Validation data?
+6
+
+What is the RSS on TEST data for the model with the degree selected from Validation data? (Make sure you got the correct degree from the previous question)
+Between 1.2e+14 and 1.3e+14
+
+
+

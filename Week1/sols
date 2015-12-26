@@ -1,0 +1,12 @@
+Using your Slope and Intercept from predicting prices from square feet, what is the predicted price for a house with 2650 sqft? Use simple decimals without comma separators (e.g. 300000), and do not include the dollar sign.
+700074.85
+
+
+Using the learned slope and intercept from the squarefeet model, what is the RSS for the simple linear regression using squarefeet to predict prices on TRAINING data?
+Between 1.1e+15 and 1.3e+15
+
+According to the inverse regression function and the regression slope and intercept from predicting prices from square-feet, what is the estimated square-feet for a house costing $800,000?
+3004
+
+Which model (square feet or bedrooms) has lowest RSS on TEST data?
+Model1
