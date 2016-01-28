@@ -1,0 +1,29 @@
+What is the value of the coefficient for sqft_living that you learned with no regularization, rounded to 1 decimal place? Use American-style decimals (e.g. 30.5)
+263
+
+What is the value of the coefficient for sqft_living that you learned with high regularization (l2_penalty=1e11)? Use American-style decimals (e.g. 30.5) and round your answer to 1 decimal place.
+124.5
+
+Comparing the lines you fit with the with no regularization versus high regularization (l2_penalty=1e11), which one is steeper?
+with no reg
+
+Using the weights learned with no regularization (l2_penalty=0), make predictions for the TEST data. In which of the following ranges does the TEST error (RSS) fall?
+Between 1e15 and 3e15 (wrong)
+a
+b
+c
+d (wrong)
+
+
+What is the value of the coefficient for sqft_living that you learned with no regularization, rounded to 1 decimal place? Use American-style decimals (e.g. 30.5).
+187.8 (wrong)
+
+What is the value of the coefficient for sqft_living that you learned with high regularization (l2_penalty=1e11)? Use American-style decimals (e.g. 30.5) and round your answer to 1 decimal place.
+91.5
+
+
+Using the weights learned with high regularization (l2_penalty=1e11), make predictions for the TEST data. In which of the following ranges does the TEST error (RSS) fall?
+b
+
+Predict the price of the first house in the test set using the weights learned with no regularization. Do the same using the weights learned with high regularization. Which weights make better prediction for the first house in the test set?
+b

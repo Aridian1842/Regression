@@ -1,0 +1,25 @@
+The best fit model of size 5 (i.e., with 5 features) always contains the set of features from best fit model of size 4.
+False (Correct)
+
+Given 20 potential features, how many models do you have to evaluate in the all subsets algorithm?
+1048576 (Correct)
+
+Given 20 potential features, how many models do you have to evaluate if you are running the forward stepwise greedy algorithm? Assume you run the algorithm all the way to the full feature set.
+20
+
+Which of the plots could correspond to a lasso coefficient path? Select ALL that apply.
+
+Hint: notice λ=∞ in the bottom right of the plots. How should coefficients behave eventually as λ goes to infinity?
+b,c (Correct)
+
+Which of the following statements about coordinate descent is true? (Select all that apply.)
+a,b
+b,c
+a,d
+
+
+Using normalized features, the ordinary least squares coordinate descent update for feature j has the form (with ρj defined as in the videos):
+a (Correct)
+
+Using normalized features, the ridge regression coordinate descent update for feature j has the form (with ρj defined as in the videos)
+c (Correct)

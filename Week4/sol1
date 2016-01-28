@@ -1,0 +1,26 @@
+We first fit a 15th order polynomial model using the 'sqft_living' column of the 'sales' data frame, with a tiny L2 penalty applied.
+b
+
+Next, we split the sales data frame into four subsets (set_1, set_2, set_3, set_4) and fit a 15th order polynomial model using each of the subsets.
+b
+
+
+For the models learned in each of these training sets, what are the largest value you learned for the coefficient of feature power_1? Choose the range that contains this value.
+f
+
+For the models learned with the high level of regularization in each of these training sets, what are the smallest value you learned for the coefficient of feature power_1? Choose the range that contains this value.
+b
+(This is wrong)
+value is 1.9
+
+
+For the models learned with the high level of regularization in each of these training sets, what are the largest value you learned for the coefficient of feature power_1? Choose the range that contains this value.
+d
+
+What is the best value for the L2 penalty according to 10-fold validation?
+c
+a
+b
+
+Using the best L2 penalty found above, train a model using all training data. Which of the following ranges contains the RSS on the TEST data of the model you learn with this L2 penalty?
+a
