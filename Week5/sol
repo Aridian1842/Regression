@@ -5,7 +5,7 @@ Given 20 potential features, how many models do you have to evaluate in the all 
 1048576 (Correct)
 
 Given 20 potential features, how many models do you have to evaluate if you are running the forward stepwise greedy algorithm? Assume you run the algorithm all the way to the full feature set.
-20
+210
 
 Which of the plots could correspond to a lasso coefficient path? Select ALL that apply.
 
@@ -13,9 +13,7 @@ Hint: notice λ=∞ in the bottom right of the plots. How should coefficients be
 b,c (Correct)
 
 Which of the following statements about coordinate descent is true? (Select all that apply.)
-a,b
-b,c
-a,d
+b
 
 
 Using normalized features, the ordinary least squares coordinate descent update for feature j has the form (with ρj defined as in the videos):
