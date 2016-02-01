@@ -1,0 +1,49 @@
+Which of the following features have been chosen by LASSO, i.e. which features were assigned nonzero weights? (Choose all that apply)
+c
+d
+
+In which of the following ranges does the best l1_penalty fall?
+10
+
+Using the best value of l1_penalty as mentioned in the previous question, how many nonzero weights do you have?
+18
+
+We explore a wide range of l1_penalty values to find a narrow region of l1_penaty values where models are likely to have the desired number of non-zero weights (max_nonzeros=7).
+What value did you find for l1_penalty_min?
+3792690191
+
+
+We then explore the narrow range of l1_penalty values between l1_penalty_min and l1_penalty_max.
+What value of l1_penalty in our narrow range has the lowest RSS on the VALIDATION set and has sparsity equal to max_nonzeros?
+3448968612
+
+Consider the model learned with the l1_penalty found in the previous question. Which of the following features has non-zero coefficients? (Choose all that apply)
+bedrooms,
+bathrooms,
+sqft_living,
+sqft_living_sqrt,
+grade,
+sqft_above
+
++------------------+-------+---------------+
+|       name       | index |     value     |
++------------------+-------+---------------+
+|   (intercept)    |  None | 222253.192544 |
+|     bedrooms     |  None | 661.722717782 |
+| bedrooms_square  |  None |      0.0      |
+|    bathrooms     |  None | 15873.9572593 |
+|   sqft_living    |  None | 32.4102214513 |
+| sqft_living_sqrt |  None | 690.114773313 |
+|     sqft_lot     |  None |      0.0      |
+|  sqft_lot_sqrt   |  None |      0.0      |
+|      floors      |  None |      0.0      |
+|  floors_square   |  None |      0.0      |
+|    waterfront    |  None |      0.0      |
+|       view       |  None |      0.0      |
+|    condition     |  None |      0.0      |
+|      grade       |  None | 2899.42026975 |
+|    sqft_above    |  None | 30.0115753022 |
+|  sqft_basement   |  None |      0.0      |
+|     yr_built     |  None |      0.0      |
+|   yr_renovated   |  None |      0.0      |
++------------------+-------+---------------+
