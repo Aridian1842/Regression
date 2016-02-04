@@ -1,0 +1,26 @@
+What is the Euclidean distance between the query house and the 10th house of the training set? Enter your 
+answer in American-style decimals (e.g. 0.044) rounded to 3 decimal places.
+0.0597
+
+
+Among the first 10 training houses, which house is the closest to the query house? Enter the 0-based index of the closest house.
+8
+
+Take the query house to be third house of the test set (features_test[2]). What is the (0-based) index of the house in the training set that is closest to this query house?
+382
+
+Take the query house to be third house of the test set (features_test[2]). What is the predicted value of the query house based on 1-nearest neighbor regression? Enter your answer in simple decimals without comma separators (e.g. 300000), rounded to nearest whole number.
+249000
+
+Take the query house to be third house of the test set (features_test[2]). Which of the following is NOT part of the 4 training houses closest to the query house? (Note that all indices are 0-based.)
+c
+
+Take the query house to be third house of the test set (features_test[2]). Predict the value of the query house by the simple averaging method. Enter your answer in simple decimals without comma separators (e.g. 241242), rounded to nearest whole number.
+413987
+
+What is the index of the house in this query set that has the lowest predicted value? Enter an index between 0 and 9.
+6
+
+If we perform k-nearest neighbors with optimal k found above, what is the RSS on the TEST data? Choose the range that contains this value.
+c
+67361678735491
